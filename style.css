@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Geologica', sans-serif;
+    background-color: #40128B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    text-align: center;
+}
+
+header h1 {
+    width: 25%;
+}
+
+nav {
+    width: 40%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form {
+    width: 25%;
+}
+form input {
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+}
